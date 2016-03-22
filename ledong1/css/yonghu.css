@@ -1,0 +1,180 @@
+/*当class="one"表示这个div的第二种形态*/
+
+html {
+    font-size: 67.5%;
+}
+
+#toubu {
+    background-color: orangered;
+    height: 20rem;
+}
+
+div h4 {
+    color: white;
+}
+
+#box1 {
+    margin-left: 20%;
+    margin-top: 7rem;
+    width: 60%;
+    height: 3rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.6rem;
+    border: 0.1rem solid #ffffff;
+    border-radius: 2.5rem;
+    display: block;
+}
+
+#box1.one {
+    display: none;
+}
+
+#box2 {
+    margin-top: 2rem;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+}
+
+#box2.one {
+    display: none;
+}
+
+.glyphicon.glyphicon-chevron-right {
+    float: right;
+    border: 0px;
+}
+
+.glyphicon {
+    margin-top: 1rem;
+    height: 2rem;
+    width: 2rem;
+    right: 1rem;
+    position: absolute;
+    display: block;
+}
+
+.glyphicon.one {
+    display: none;
+}
+
+#navbottom {
+    text-align: center;
+    height: 3rem;
+    background-color: #f2f2f2;
+}
+
+body {
+    padding-bottom: 4rem;
+}
+
+.nav.nav-tabs {
+    border-bottom: 0px;
+}
+
+[name="biaoqian"] {
+    width: 50%;
+    float: left;
+}
+
+a {
+    color: #000000;
+}
+
+.active {
+    color: red;
+}
+
+.open {
+    float: right;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+#dingchang {
+    margin-top: 2rem;
+    background-color: #ffffff;
+}
+
+#dibu {
+    margin: 0px;
+}
+
+#toububox {
+    margin: 0px;
+}
+
+.col-xs-12 {
+    padding-right: 0px;
+}
+
+#touxiang {
+    margin: auto;
+    width: 9.1rem;
+    height: 9.1rem;
+}
+
+#toubutext {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.box1 {
+    padding-top: 1rem;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box2 {
+    padding-bottom: 1rem;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+#fuwu {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    background-color: #ffffff;
+}
+
+.img {
+    height: 2.2rem;
+    width: 2.2rem;
+}
+
+.qiandao {
+    margin-bottom: 0;
+}
+
+#username {
+    margin-top: 1rem;
+}
+
+.btn.btn-default {
+    width: 50%
+}
+
+#quan {
+    margin-top: 0.3rem;
+    float: right;
+    font-size: 1.4rem;
+    color: #ff4303;
+}
+
+#navbottom ul a div span img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: -3%;
+}
+
+#navbottom ul a div p {
+    margin-top: -6%;
+}

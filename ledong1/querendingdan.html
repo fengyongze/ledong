@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta content="telephone = no" name="format-detection" />
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/querendingdan.css" type="text/css">
+</head>
+
+<body>
+    <nar class="navbar navbar-default navbar-fixed-top">
+        <div>
+            <p class="navbar-text" id="wenzi">确认订单</p>
+            <span id="fanhui"><img src="img/返回@2x.png"id="img1" ><text id="text1">返回</text></span>
+        </div>
+    </nar>
+    <div id="text2">请在
+        <text id="text3">14分59秒</text>内完成支付，否则场地不予保留!</div>
+    <div id="box2">
+        <table class="table table-bordered table-condensed">
+            <tr>
+                <td class="biaotou" id="changguan">
+                    <text class="text4">场馆</text>
+                </td>
+                <td class="biaoge" id="title">金珀羽毛球馆</td>
+            </tr>
+            <tr>
+                <td class="biaotou">
+                    <text class="text4">日期</text>
+                </td>
+                <td class="biaoge" id="riqi">2015-08-17（周五）</td>
+            </tr>
+            <tr>
+                <td class="biaotou">
+                    <text class="text4">场地</text>
+                </td>
+                <td class="biaoge" id="groundsInfo"></td>
+            </tr>
+        </table>
+        <div id="box3">
+            <text id="text4">小计：</text>
+            <text id="text5"></text>
+        </div>
+    </div>
+    <div id="box4">
+        <text id="text6">代金券</text>
+        <img src="img/打开@2x.png" id="img3">
+        <text id="text8">¥-15</text>
+        <text id="text7">抵用</text>
+    </div>
+    <div>
+        <hr class="fenjiexian1">
+        <div id="text9">支付方式</div>
+        <hr class="fenjiexian2">
+    </div>
+    <div id="box5">
+        <img src="img/微信图标@2x.png" id="img4">
+        <text id="text10">微信支付</text><span class="img5 wx"></span>
+    </div>
+    <div id="box6">
+        <img src="img/支付宝图标@2x.png" id="img6">
+        <text id="text11">支付宝支付</text><span class="img5 alipay"></span>
+    </div>
+    <div id="box7">
+        <img src="img/支付按钮@3x.png" id="img8" class="img-responsive">
+        <text id="text12">去支付¥15</text>
+    </div>
+    <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="myMoalLable">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        取消
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="modal fade"id="myModal"tabindex="-1"role="dialog"aria-labelledby="myMoalLable">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button"class="close"data-dismiss="modal"aria-label="Close"id="button1">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <b id="text13">请输入支付密码</b>
+                </div>
+                <div class="modal-body">
+                    <p id="text14">支付金额</p>
+                    <p id="text15">¥28.00</p>
+                </div>
+                <div class="modal-footer">
+                    <form class="form-inline">
+                        <div class="form-group row">
+                            <div class="a col-xs-2">
+                                <input type="password" maxlength="1"id="input1"onkeyup="check1()">
+                            </div>
+                            <div class="b col-xs-2">
+                                <input type="password" maxlength="1"id="input2"onkeyup="check2()" >
+                            </div>
+                            <div class="b col-xs-2">
+                                <input type="password"  maxlength="1"id="input3"onkeyup="check3()">
+                            </div>
+                            <div class="b col-xs-2">
+                                <input  type="password" maxlength="1"id="input4"onkeyup="check4()">
+                            </div>
+                            <div class="b col-xs-2">
+                                <input type="password"  maxlength="1"id="input5"onkeyup="check5()">
+                            </div>
+                            <div class="c col-xs-2">
+                                <input type="password"  maxlength="1"id="input6"onkeyup="check6()">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+    <script data-main="js/querendingdan/querendingdan" src="js/public/require.js"></script>
+</body>
+
+</html>

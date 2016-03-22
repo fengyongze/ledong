@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta content="telephone = no" name="format-detection" />
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="js/public/base64.js"></script>
+    <link rel="stylesheet" href="css/denglu.css" type="text/css">
+</head>
+
+<body>
+    <nar class="navbar navbar-default navbar-fixed-top">
+        <div id="fanhui"><span><img src="img/返回@2x.png"id="img1"><img src="img/返回@2x.png"id="img2"></span></div>
+        <p class="navbar-text" id="zhuce">注册</p>
+        <p class="navbar-text" id="denglu">登录</p>
+    </nar>
+    <div id="logo"><span><img src="img/logo@2x.png" id="img3"></span>
+        <p>乐动</p>
+    </div>
+    <div id="shurukuang">
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="shouji">手机</label>
+                <div class="input-group">
+                    <div class="input-group-addon"><span><img src="img/账户@2x.png" id="img4"></span></div>
+                    <input type="tel" class="form-control" id="shouji" placeholder="手机" maxlength="11">
+                </div>
+            </div>
+        </form>
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="mima">密码</label>
+                <div class="input-group">
+                    <div class="input-group-addon"><span><img src="img/密码@2x.png" id="img5"></span></div>
+                    <input type="password" class="form-control" id="mima" placeholder="请输入您的密码">
+                </div>
+            </div>
+        </form>
+        <div id="dengluanniu">
+            <p>登录</p>
+        </div>
+    </div>
+    <div id="text2">忘记密码？</div>
+    <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="myMoalLable">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        取消
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    <script src="js/denglu.js"></script>-->
+    <script data-main="js/denglu/denglu" src="js/public/require.js"></script>
+</body>
+
+</html>

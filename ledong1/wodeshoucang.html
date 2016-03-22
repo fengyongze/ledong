@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta content="telephone = no" name="format-detection" />
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/public/template.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/wodeshoucang.css" type="text/css">
+</head>
+
+<body>
+    <nar class="navbar navbar-default navbar-fixed-top">
+        <div>
+            <p class="navbar-text" id="wenzi">我的收藏</p>
+            <span id="fanhui"><img src="img/返回@2x.png"id="img1" ><text id="text1">返回</text></span>
+        </div>
+    </nar>
+    <div id="content"></div>
+    <script id="main" type="text/html">
+        {{each data}}
+        <div class="box" id={{$value.groundId}}>{{$value.title}}<span><img src="img/%E6%89%93%E5%BC%80@2x.png" class="img2"></span></div>
+        {{/each}}
+    </script>
+    <script data-main="js/wodeshoucang/wodeshoucang" src="js/public/require.js"></script>
+</body>
+
+</html>

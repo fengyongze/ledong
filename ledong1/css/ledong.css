@@ -1,0 +1,144 @@
+html{
+    font-size: 67.5%;
+}
+#body1{
+    margin: 0px;
+    padding-top: 4.2rem;
+    padding-bottom: 4rem;
+}
+.navbar.navbar-default.navbar-fixed-top{
+    border: 0;
+}
+#imgbox{
+    float: right;
+    position: relative;
+    top: 1rem;
+}
+#img1{
+    width: 2.9rem;
+}
+#text1{
+    font-size: 1.8rem;
+    color: #ffffff;
+    position: relative;
+    top: 1.0rem;
+}
+#gundong1{
+     width: 100%;
+     margin: 0px;
+ }
+.col-xs-4{
+    padding: 0;
+    padding-left: 2rem;
+}
+
+.middle{
+    padding-left: 0.3rem;
+    padding-right: 0;
+}
+.col-xs-3.jiaqian{
+    padding: 0;
+    margin-top: 4rem;
+}
+.col-xs-4{
+    height: 100%;
+}
+.text2{
+    font-size: 1.6rem;
+    color: #4D4D4D;
+}
+.qiuguan{
+    font-size: 1.6rem;
+    color: #4d4d4d; 
+    margin: 0;
+}
+.text3{
+    font-size: 1.3rem;
+    margin-top: 6%;
+    color: #808080;
+    display:block;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.img2{
+    height: 1.3rem;
+    width: 1.1rem;
+}
+.pic{
+   width: 90%;
+    height: 7rem;
+}
+.tuijian{
+    float: left;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-top: -7rem;
+    position: relative;
+}
+.text4{
+    font-size: 2.5rem;
+    color: #ff4304;
+    float: right;
+}
+.text5{
+    margin-top: 0.9rem;
+    font-size: 1.3rem;
+    color: #ff4304;
+    float: right;
+    margin-right: 0.5rem;   
+}
+#navbottom{
+    text-align: center;
+    height:3rem;
+    background-color: #f2f2f2;
+}
+.nav.nav-tabs{
+    border-bottom: 0px;
+}
+a{
+    color: #000000;
+}
+hr{
+    margin: 0.5rem;
+}
+.active{
+    color: red;
+}
+[name="biaoqian"]{
+    width: 50%;
+    float: left;
+}
+
+[class="navbar navbar-default navbar-fixed-top"]{
+    background-color: orangered;
+}
+#quyubiaoqian{
+    width: 100%;
+}
+#myTabDrop1{
+    font-size: 1.6rem;
+    color: #ff4304;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+}
+.container{
+    padding: 0px;
+}
+.row{
+    margin-right: 0px;
+    height: 100%;
+}
+.dropdown-menu{
+    width: 100%;
+    text-align: center;
+}
+#navbottom ul a div span img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: -3%;
+}
+#navbottom ul a div p{
+    margin-top: -6%;
+}

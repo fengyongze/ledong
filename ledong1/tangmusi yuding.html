@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta content="telephone = no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tangmusi%20yuding.css">
+    <script src="js/public/template.js"></script>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nar class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header" star_time="2015-10-19">
+            <div id="fanhui">
+                <span><img src="img/返回按钮@2x.png"id="img1"></span>
+            </div>
+            <div class=" table-responsive" id="riqi">
+                <table class="table table-responsive nav nav-tabs">
+                    <tr id="mytable">
+                        <th id="qwe">
+                            <a data-toggle="tab" href="#content">
+                                <div class="box1">
+                                    <text class="text1"></text>
+                                </div>
+                                <text class="text2"></text>
+                            </a>
+                        </th>
+                        <th>
+                            <a data-toggle="tab" href="#content">
+                                <div class="box1">
+                                    <text class="text1"></text>
+                                </div>
+                                <text class="text2"></text>
+                            </a>
+                        </th>
+                        <th>
+                            <a data-toggle="tab" href="#content">
+                                <div class="box1">
+                                    <text class="text1"></text>
+                                </div>
+                                <text class="text2"></text>
+                            </a>
+                        </th>
+                        <th>
+                            <a data-toggle="tab" href="#content">
+                                <div class="box1">
+                                    <text class="text1">
+                                    </text>
+                                </div>
+                                <text class="text2"></text>
+                            </a>
+                        </th>
+                        <th>
+                            <a data-toggle="tab" href="#content">
+                                <div class="box1">
+                                    <text class="text1"></text>
+                                </div>
+                                <text class="text2"></text>
+                            </a>
+                        </th>
+                        <th>
+                            <a data-toggle="tab" href="#content">
+                                <div class="box1">
+                                    <text class="text1"></text>
+                                </div>
+                                <text class="text2"></text>
+                            </a>
+                        </th>
+                        <th>
+                            <a data-toggle="tab" href="#content">
+                                <div class="box1">
+                                    <text class="text1"></text>
+                                </div>
+                                <text class="text2"></text>
+                            </a>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </nar>
+    <div class="tab-content">
+        <div class="table-responsive tab-pane" id="content">
+        </div>
+    </div>
+    <nar class="navbar navbar-default navbar-fixed-bottom">
+        <div class="row">
+            <div class="col-xs-12" id="qiuchang">
+                <div id="biaozhi">
+                    <div class="col-xs-3 col-xs-offset-2">
+                        <div id="yishou"></div>
+                        <p>已售</p>
+                    </div>
+                    <div class="col-xs-3">
+                        <div id="zaishou"></div>
+                        <p>在售</p>
+                    </div>
+                    <div class="col-xs-3">
+                        <div id="xuanzhong"></div>
+                        <p>选中</p>
+                    </div>
+                </div>
+                <div id="box3" class="one">
+                    <text id="weizhifu">您有一条未完成订单！</text>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <button class="btn btn-block" id="dingdan">提交订单</button>
+            </div>
+        </div>
+    </nar>
+    <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="myMoalLable">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        取消
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script id="table" type="text/html">
+        <thead>
+            <th></th>
+            {{each data[0].data}}
+            <td>{{$value.id}}号场</td>
+            {{/each}}
+        </thead>
+        <tbody>
+            {{each data}}
+            <tr>
+                <th>{{$value.time}}</th>
+                {{each data[$index].data}}
+                <td>
+                    {{if $value.can_booking==="0"}}
+                    <div></div>
+                    {{else}}
+                    <input type="button" class="btn btn-default btn-block" value={{$value.price}} id={{$value.id}}> {{/if}}
+                </td>
+                {{/each}}
+            </tr>
+            {{/each}}
+        </tbody>
+    </script>
+    <script data-main="js/tangmusi yuding/tangmusi yuding" src="js/public/require.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+[class="navbar navbar-default navbar-fixed-top"] {
+    background-color: transparent;
+    text-align: center;
+    border: 0px;
+}
+
+html {
+    font-size: 67.5%
+}
+
+#navbar-text {
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar.one {
+    background-color: #ff4304;
+}
+
+#fanhui {
+    height: 4rem;
+    width: 4rem;
+}
+
+#fanhui1box {
+    float: left;
+    padding-top: 0.5rem;
+    padding-left: 0.3rem;
+}
+
+#xihuan1 {
+    height: 4rem;
+    width: 4rem;
+}
+
+#fenxiang1 {
+    height: 4rem;
+    width: 4rem;
+}
+
+#fenxiang1box {
+    float: right;
+    padding-top: 0.5rem;
+    padding-right: 0px;
+}
+
+#xihuan1box {
+    float: right;
+    padding-top: 0.5rem;
+    padding-right: 0.4rem;
+}
+
+#beijingtu {
+    width: 100%;
+    height: 26.5rem;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+#tupianbox {
+    position: absolute;
+    top: 7rem;
+    left: 3.8rem;
+}
+
+#tupianwenzi {
+    position: absolute;
+    top: 6.5rem;
+    left: 15.5rem;
+}
+
+#tupian {
+    height: 13rem;
+    width: 10rem;
+}
+
+.xingxing {
+    width: 1rem;
+    height: 1rem;
+}
+
+#qiuchangname {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin: 0px;
+}
+
+#xingping {
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin: 0px;
+}
+
+#jiage {
+    padding-top: 1.4rem;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.row {
+    text-align: center;
+    margin: 0px;
+}
+
+.table.table-responsive {
+    background-color: #f2f2f2;
+}
+
+#mytable {
+    width: 100%;
+}
+
+#mytable th {
+    width: 25%;
+}
+
+#mytable th button {
+    background-color: white;
+    border: 0px;
+    padding: 0;
+}
+
+.col-xs-12.yuding {
+    background-color: red;
+}
+
+#fuwu {
+    margin: 0px;
+}
+
+.text1 {
+    font-size: 1.5rem;
+    color: #4D4D4D;
+    margin: 0px;
+}
+
+.text2 {
+    font-size: 1.2rem;
+    color: #808080;
+    margin: 0px;
+}
+
+.text3 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin: 0px;
+}
+
+#fuwu div.col-xs-12 {
+    padding-top: 2.8rem;
+}
+
+.col-xs-3 {
+    padding: 0;
+}
+
+.serice {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.text4 {
+    font-size: 1.6rem;
+    color: #999999;
+}
+
+hr {
+    margin: 0px;
+}
+
+.text5 {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    color: #999999;
+    height: auto;
+}
+
+.text6 {
+    font-size: 1.5rem;
+    color: #4D4D4D;
+}
+
+.phonebox {
+    margin: auto;
+}
+
+.mapbox {
+    margin-left: 5%;
+}
+
+.col-xs-4 {
+    margin-top: 1rem;
+    padding: 0px;
+}
+
+.text7 {
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    color: #4D4D4D;
+}
+
+.text8 {
+    position: relative;
+    bottom: 2.2rem;
+    left: 1rem;
+    width: 8.8rem;
+    font-size: 1.4rem;
+    color: #808080;
+}
+
+.text9 {
+    padding-top: 1.5rem;
+    font-size: 1.6rem;
+    color: #999999;
+}
+
+.img1 {
+    height: 15rem;
+}
+
+.text11 {
+    margin: auto;
+    padding-top: 1.5rem;
+    width: 80%;
+    font-size: 1.5rem;
+    color: #4D4D4D;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text12 {
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    color: #999999;
+}
+
+.text14 {
+    padding-top: 3.1rem;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    color: #999999;
+}
+
+#img1 {
+    height: 2.8rem;
+}
+
+#img2 {
+    height: 2.8rem;
+}
+
+.tuijian {
+    position: relative;
+    bottom: 13rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.tuijian.one {
+    display: none;
+}
+
+#touxiang {
+    height: 25%;
+    width: 20%;
+    margin-right: 35%;
+    margin-bottom: 10%;
+    margin: auto;
+}
+
+#pinglun {
+    border: 1px solid #f2f2f2;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    height: 2.5rem;
+}
+
+.text13 {
+    margin-top: 3%;
+}
+
+.modal-body {
+    text-align: center;
+}

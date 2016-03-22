@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta content="telephone = no" name="format-detection" />
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/zhuce.css" type="text/css">
+    <script src="js/public/base64.js"></script>
+</head>
+
+<body>
+    <nar class="navbar navbar-default navbar-fixed-top">
+        <div>
+            <p class="navbar-text" id="wenzi">注册</p>
+            <div id="fanhui"><span><img src="img/返回@2x.png"id="img1" ><text id="text1">返回</text></span></div>
+        </div>
+    </nar>
+    <div id="zhuti">
+        <form class="form-inline" id="myform">
+            <div class="input-group tel">
+                <label class="sr-only" for="shouji"></label>
+                <input type="tel" id="shouji" placeholder="请输入绑定的手机号">
+            </div>
+            <hr>
+            <div class="input-group">
+                <label class="sr-only" for="yanzhengma"></label>
+                <input type="text" id="yanzhengma" placeholder="请输入验证码">
+                <div id="box1" class="input-group-addon">获取</div>
+            </div>
+            <hr>
+            <div class="input-group password">
+                <label class="sr-only" for="mima"></label>
+                <input type="password" id="mima" placeholder="请输入密码">
+            </div>
+        </form>
+    </div>
+    <div id="box2"><span><img src="img/注册@2x.png"id="img3"class="img-responsive"></span>
+        <text id="text3">注册</text>
+    </div>
+    <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="myMoalLable">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        取消
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    <script src="js/zhuce.js"></script>-->
+    <script type="text/javascript" data-main="js/zhuce/zhuce" src="js/public/require.js"></script>
+</body>
+
+</html>

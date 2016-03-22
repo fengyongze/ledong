@@ -1,0 +1,53 @@
+.navbar.navbar-default.navbar-fixed-top{
+    background-color: orangered;
+    padding: 0px;
+    text-align: center;
+    border: 0;
+}
+html{
+    font-size: 67.5%
+}
+#img1{
+    position: absolute;
+    top: 0.5rem;
+    left: 0px;
+    height: 4.4rem;
+    width: 4.4rem;
+
+}
+#wenzi{
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+#text1{
+    position: absolute;
+    left: 3.5rem;
+    top: 1.5rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+body{
+    background-color: #f2f2f2;
+    padding-top: 5.7rem;
+}
+.img2{
+    float: right;
+    height: 2.4rem;
+    width: 2.4rem;
+}
+#box1{
+    background-color: white;
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.fengexian1{
+    margin-left: 2rem;
+}
+#box2{
+    background-color: white;
+}
+.modal-body{
+    text-align: center;
+}

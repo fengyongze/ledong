@@ -1,0 +1,107 @@
+.navbar.navbar-default.navbar-fixed-top {
+    background-color: orangered;
+    padding: 0px;
+    text-align: center;
+    border: 0;
+}
+
+html {
+    font-size: 67.5%;
+}
+
+#img1 {
+    position: absolute;
+    top: 0.5rem;
+    left: 0px;
+    height: 4.4rem;
+    width: 4.4rem;
+}
+
+#wenzi {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+#text1 {
+    position: absolute;
+    left: 3.5rem;
+    top: 1.5rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+body {
+    padding-top: 7.4rem;
+    background-color: #f2f2f2;
+}
+
+#myform {
+    border: 1px;
+    background-color: white;
+    padding-left: 1.6rem;
+}
+
+.form-group {
+    margin: 0;
+}
+
+#shouji {
+    border: 0;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#yanzhengma {
+    border: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+
+#mima {
+    border: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin: 0px;
+}
+
+#box1 {
+    border: 1px solid #ff4304;
+    border-radius: 2.5rem;
+    background-color: #ff4304;
+    font-size: 1.4rem;
+    color: #ffffff;
+    pointer-events: "";
+}
+
+#box1.one {
+    background-color: gray;
+    border: gray;
+    pointer-events: none;
+}
+
+#img3 {
+    width: 80%;
+    height: 3rem;
+    margin-left: 10%;
+}
+
+#box2 {
+    margin-top: 2.7rem;
+    text-align: center;
+}
+
+#text3 {
+    font-size: 1.6rem;
+    color: #ffffff;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.modal-body {
+    text-align: center;
+}

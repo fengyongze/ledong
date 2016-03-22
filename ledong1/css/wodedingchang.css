@@ -1,0 +1,198 @@
+.navbar.navbar-default.navbar-fixed-top{
+    background-color: orangered;
+    padding: 0px;
+    text-align: center;
+    border: 0;
+}
+html{
+    font-size: 67.5%;
+}
+#img1{
+    position: absolute;
+    top: 0.5rem;
+    left: 0px;
+    height: 4.4rem;
+    width: 4.4rem;
+
+}
+#wenzi{
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+#text1{
+    position: absolute;
+    left: 3.5rem;
+    top: 1.5rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+body{
+    background-color: #f2f2f2;
+    padding-top: 5.7rem;
+}
+#box1{
+    background-color: white;
+    border: 1px solid orangered;
+    height: 3.1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    margin-top: 1.4rem;
+    border-radius: 0.5rem;
+}
+.col-xs-6{
+    padding-top: 0.5rem;
+    color: #ff4304;
+    font-size: 1.4rem;
+    height: 2.9rem;
+}
+.col-xs-6.current{
+    background-color: #ff4304;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+#zhifu{
+    border-right: 1px solid #ff4304;
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.box4{
+    background-color: white;
+}
+.box5{
+    background-color: white;
+}
+.content{
+    display: none;
+}
+.content.current{
+    display: block;
+}
+.text2{
+    font-size: 1.6rem;
+    color: #4c4c4c;
+    margin-left: 1.6rem;
+}
+.text3{
+    font-size: 1.4rem;
+    color: #808080;
+    padding-left: 1.6rem;
+}
+.ground{
+    margin: 0px;
+    padding-left: 1.6rem;
+    width: 24%;
+}
+.div1{
+    margin-top: 4%;
+}
+.div2{
+    margin-top: 6%;
+}
+.jinqian{
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.changdi{
+    width: 80%;
+    padding-left: 0;
+    margin-left: 6rem;
+    margin-top: -6%;
+}
+.shijian{
+    margin-left: 0.6rem;
+}
+.text4{
+    font-size: 1.4rem;
+    color: #4c4c4c;
+}
+.text5{
+    margin-right: 3rem;
+    float: right;
+    font-size: 2rem;
+    color: #ff4304;
+}
+.box2{
+    float: right;
+    height: 2rem;
+    width: 6rem;
+    border: 1px solid #808080;
+    border-radius: 25px;
+    text-align: center;
+    color: #808080;
+    font-size: 1.5rem;
+    margin-right: 1.2rem;
+    position: relative;
+    bottom: 5.6rem;
+}
+.box3{
+    float: right;
+    height: 2rem;
+    width: 6rem;
+    border: 1px solid #ff4304;
+    border-radius: 25px;
+    text-align: center;
+    color: #ff4304;
+    font-size: 1.5rem;
+    margin-right: 1.6rem;
+    position: relative;
+    bottom: 5.6rem;
+}
+.text6{
+    float: right;
+    font-size: 1.5rem;
+    color: #ff4304;
+    padding-right: 3rem;
+}
+.text7{
+    float: right;
+    font-size: 1.5rem;
+    color: #808080;
+    padding-right: 3rem;
+}
+.modal-body{
+    text-align: center;
+}
+/*
+#dingdan{
+    position:absolute; z-index:1;
+    top:4.7rem; bottom:4.7rem;
+    width:100%;
+    overflow: auto;
+}
+#pullUp{
+    padding-left: 30%;
+}
+#pullUp .pullUpIcon  {
+	display:block; float:left;
+	width:40px; height:40px;
+	background:url("../img/pull-icon@2x.png") 0 0 no-repeat;
+	-webkit-background-size:40px 80px; background-size:40px 80px;
+	-webkit-transition-property:-webkit-transform;
+	-webkit-transition-duration:250ms;	
+}
+#pullUp .pullUpIcon  {
+	-webkit-transform:rotate(-180deg) translateZ(0);
+}
+#pullUp.flip .pullUpIcon {
+	-webkit-transform:rotate(0deg) translateZ(0);
+}
+
+#pullUp.loading .pullUpIcon {
+	background-position:0 100%;
+	-webkit-transform:rotate(0deg) translateZ(0);
+	-webkit-transition-duration:0ms;
+	-webkit-animation-name:loading;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+}
+@-webkit-keyframes loading {
+	from { -webkit-transform:rotate(0deg) translateZ(0); }
+	to { -webkit-transform:rotate(360deg) translateZ(0); }
+}*/

@@ -1,0 +1,289 @@
+.navbar.navbar-default.navbar-fixed-top {
+    background-color: orangered;
+    padding: 0px;
+    text-align: center;
+    border: 0;
+}
+
+html {
+    font-size: 67.5%
+}
+
+#img1 {
+    position: absolute;
+    top: 0.5rem;
+    left: 0px;
+    height: 4.4rem;
+    width: 4.4rem;
+}
+
+#wenzi {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+#text1 {
+    position: absolute;
+    left: 3.5rem;
+    top: 1.5rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+body {
+    background-color: #f2f2f2;
+    padding-top: 5.7rem;
+}
+
+#text2 {
+    padding-left: 1.6rem;
+    font-size: 1.4rem;
+    color: #808080;
+}
+
+#text3 {
+    font-size: 1.4rem;
+    color: #ff4304;
+}
+
+#box1 {
+    height: 10.8rem;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#box2 {
+    background-color: #ffffff;
+    margin-top: 1.2rem;
+}
+
+.biaotou {
+    height: 4.1rem;
+    width: 5rem;
+    color: #808080;
+    font-size: 1.6rem;
+    padding: 0;
+}
+
+.biaoge {
+    font-size: 1.6rem;
+    color: #4D4D4D;
+}
+
+#img2 {
+    height: 2.4rem;
+    width: 2.4rem;
+    float: right;
+}
+
+.table.table-bordered {
+    margin: 0px;
+}
+
+#box3 {
+    height: 3.6rem;
+    padding-top: 1.5rem;
+}
+
+.text4 {
+    padding-left: 0.8rem;
+    color: #808080;
+    font-size: 1.6rem;
+}
+
+#text4 {
+    padding-left: 1.8rem;
+    color: #808080;
+    font-size: 1.6rem;
+}
+
+#text5 {
+    color: #ff4304;
+    font-size: 1.6rem;
+    padding-left: 1.6rem;
+}
+
+#box4 {
+    background-color: white;
+    margin-top: 2rem;
+    height: 4rem;
+    padding-top: 1rem;
+}
+
+#text6 {
+    font-size: 1.6rem;
+    color: #808080;
+    padding-left: 1.6rem;
+}
+
+#text7 {
+    font-size: 1.4rem;
+    color: #808080;
+    float: right;
+    padding-right: 0.5rem;
+}
+
+#text8 {
+    font-size: 1.4rem;
+    color: #ff4304;
+    float: right;
+}
+
+#img3 {
+    height: 2.4rem;
+    width: 2.4rem;
+    float: right;
+    position: relative;
+    bottom: 0.2rem;
+}
+
+.fenjiexian1 {
+    width: 30%;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.fenjiexian2 {
+    width: 30%;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+#text9 {
+    margin-top: 2rem;
+    margin-left: 5%;
+    width: 20%;
+    float: left;
+}
+
+#box5 {
+    margin-top: 5.7rem;
+    padding-left: 3.2rem;
+    padding-right: 3.1rem;
+}
+
+#img4 {
+    height: 2.1rem;
+    width: 2.1rem;
+}
+
+.img5 {
+    float: right;
+    height: 2.9rem;
+    width: 2.9rem;
+}
+
+.img5 {
+    background-image: url(/img/未选中按钮@2x.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+
+.img5.one {
+    background-image: url(/img/选中按钮@2x.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+
+#text10 {
+    margin-left: 1.3rem;
+}
+
+#box6 {
+    margin-top: 2rem;
+    padding-left: 3.2rem;
+    padding-right: 3.1rem;
+}
+
+#img6 {
+    height: 2.1rem;
+    width: 2.1rem;
+}
+
+#text11 {
+    margin-left: 1.3rem;
+}
+
+#box7 {
+    margin-top: 5.4rem;
+    padding-left: 3.2rem;
+    padding-right: 3.1rem;
+    text-align: center;
+}
+
+#text12 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    position: relative;
+    bottom: 2.4rem;
+}
+
+.modal-header {
+    text-align: center;
+    border-bottom: solid #ca9413;
+}
+
+#button1 {
+    float: left;
+}
+
+#text13 {
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+#text14 {
+    font-size: 1.6rem;
+    color: #000000;
+}
+
+#text15 {
+    font-size: 3.6rem;
+    color: #000000;
+}
+
+.a {
+    border: 1px solid #9f9f9f;
+    border-right: 1px solid #dfdfdf;
+}
+
+.b {
+    border: 1px solid #9f9f9f;
+    border-right: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+}
+
+.c {
+    border: 1px solid #9f9f9f;
+    border-left: 1px solid #dfdfdf;
+}
+
+.form-group.row {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.col-xs-2 {
+    padding: 0px;
+    height: 4rem;
+}
+
+input {
+    height: 3.8rem;
+    width: 4.1rem;
+    border: 0px;
+    text-align: center;
+    color: #000000;
+    font-size: 3rem;
+}
+
+.modal-body {
+    text-align: center;
+}

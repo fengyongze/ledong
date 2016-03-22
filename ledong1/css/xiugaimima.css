@@ -1,0 +1,105 @@
+.navbar.navbar-default.navbar-fixed-top {
+    background-color: orangered;
+    padding: 0px;
+    text-align: center;
+    border: 0;
+}
+
+#img1 {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    height: 44px;
+    width: 44px;
+}
+
+#wenzi {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#text1 {
+    position: absolute;
+    left: 35px;
+    top: 15px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+body {
+    padding-top: 74px;
+    background-color: #f2f2f2;
+}
+
+#myform {
+    border: 1px;
+    background-color: white;
+    padding-left: 16px;
+}
+
+.form-group {
+    margin: 0;
+}
+
+#shouji {
+    border: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#yanzhengma {
+    border: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+#mima {
+    border: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 0;
+}
+
+#img2 {
+    float: right;
+    position: relative;
+    bottom: 65px;
+    height: 30px;
+    width: 84px;
+}
+
+#box1 {
+    border: 1px solid #ff4304;
+    border-radius: 25px;
+    background-color: #ff4304;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#box1.one {
+    background-color: gray;
+    border: gray;
+    pointer-events: none;
+}
+
+#box2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#text3 {
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    bottom: 30px;
+}
+
+.modal-body {
+    text-align: center;
+}

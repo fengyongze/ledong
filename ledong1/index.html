@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta content="telephone = no" name="format-detection" />
+    <title>乐动体育</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ledong.css" type="text/css">
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/public/template.js"></script>
+</head>
+
+<body id="body1">
+    <div id="daohang">
+        <nar class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <span id="imgbox"><img src="img/搜索@2x.png"id="img1"></span>
+                    <p id="text1" align="center">佛山市</p>
+                </div>
+            </div>
+        </nar>
+    </div>
+    <nar class="navbar navbar-default navbar-fixed-bottom" id="navbottom">
+        <ul class="nav nav-tabs ">
+            <a href="index.html" class="active">
+                <div name="biaoqian"><span><img src="img/%E7%90%83%E9%A6%86%E9%AB%98%E4%BA%AE.png"></span>
+                    <p>球馆</p>
+                </div>
+            </a>
+            <a href="yonghu.html">
+                <div name="biaoqian"><span><img src="img/TabBar4@2X.png"></span>
+                    <p>我的</p>
+                </div>
+            </a>
+        </ul>
+    </nar>
+    <div id="gundong1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        </div>
+        <a class="left carousel-control" href="#gundong1" role="button" data-slide="prev">
+        </a>
+        <a class="right carousel-control" href="#gundong1" role="button" data-slide="next">
+        </a>
+    </div>
+    <div class="container">
+        <div id="zhuye">
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="dropdown" id="quyubiaoqian">
+                    <a class="btn btn-defalut dropdown-toggle" data-toggle="dropdown" id="myTabDrop1">区域
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                        <li role="presentation" class="active">
+                            <a role="menuitem" href="#" tabindex="-1" data-toggle="tab">全部</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" href="#" tabindex="-1" data-toggle="tab">禅城区</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" href="#" tabindex="-1" data-toggle="tab">南海区</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" href="#" tabindex="-1" data-toggle="tab">顺德区</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" href="#" tabindex="-1" data-toggle="tab">高明区</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" href="#" tabindex="-1" data-toggle="tab">三水区</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="yemian1">
+            <div class="tab-pane active" id="quyu">
+            </div>
+        </div>
+    </div>
+    <script id="carousel" type="text/html">
+        {{each data}}
+        <div class="item">
+            <img class="img-responsive lunbo" src="http://112.74.18.193/uploadimages/{{$value.pic}}">
+        </div>
+        {{/each}}
+    </script>
+    <script id="main" type="text/html">
+        {{each contents}}
+        <div class="row">
+            <div class="col-xs-4">
+                <img src={{$value.pic.sml}} class="pic"> {{if $value.isRecommend===1}}
+                <img class="tuijian" src="img/%E6%8E%A8%E8%8D%90@2x.png"> {{/if}}
+            </div>
+            <div class="col-xs-5 middle">
+                <p class="qiuguan">{{$value.title}}</p>
+                <text class="text3 jvli"><img src="img/距离图标@2x.png" class="img2">{{$value.distance}}</text>
+                <text class="text3 didian"><img src="img/%E5%9C%B0%E6%A0%87@2x.png" class="img2">{{$value.address}}</text>
+            </div>
+            <div class="col-xs-3 jiaqian">
+                <text class="text5">元起</text>
+                <text class="text4 shuzi">{{$value.displayPrice}}</text>
+            </div>
+        </div>
+        <hr> {{/each}}
+    </script>
+    <script data-main="js/ledong/ledong" src="js/public/require.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+    .navbar.navbar-default.navbar-fixed-top {
+    background-color: orangered;
+    padding: 0px;
+    text-align: center;
+    border: 0;
+}
+
+html {
+    font-size: 67.5%;
+}
+
+#img1 {
+    position: absolute;
+    top: 0.5rem;
+    left: 0px;
+    height: 4.4rem;
+    width: 4.4rem;
+}
+
+#wenzi {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+#text1 {
+    position: absolute;
+    left: 3.5rem;
+    top: 1.5rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+body {
+    background-color: #f2f2f2;
+    padding-top: 5rem;
+}
+
+#box1 {
+    height: 10.8rem;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#text2 {
+    font-size: 1.6rem;
+    color: #4D4D4D;
+}
+
+#text3 {
+    font-size: 3.4rem;
+    color: #4D4D4D;
+}
+
+#box2 {
+    background-color: #ffffff;
+    margin-top: 1.2rem;
+}
+
+.biaotou {
+    height: 3.5rem;
+    color: #808080;
+    font-size: 1.6rem;
+    padding: 0;
+}
+
+.biaoge {
+    font-size: 1.6rem;
+    color: #4D4D4D;
+}
+
+#img2 {
+    height: 2.4rem;
+    width: 2.4rem;
+    float: right;
+}
+
+.table.table-bordered {
+    margin: 0px;
+}
+
+#box3 {
+    #box3 {
+        height: 5rem;
+        padding-top: 1.5rem;
+    }
+    .text4 {
+        padding-left: 0.8rem;
+        color: #808080;
+        font-size: 1.6rem;
+    }
+    #text4 {
+        padding-left: 1.8rem;
+        color: #808080;
+        font-size: 1.6rem;
+    }
+    #text5 {
+        color: #ff4304;
+        font-size: 1.6rem;
+        padding-left: 1.6rem;
+    }
+    #box4 {
+        background-color: #ffffff;
+        margin-top: 1.2rem;
+    }
+    .text6 {
+        font-size: 1.6rem;
+        color: #808080;
+        padding-left: 1.8rem;
+    }
+    .box5 {
+        margin-top: 1.5rem;
+    }
+    #box5 {
+        padding-top: 2.5rem;
+    }
+    .text7 {
+        font-size: 1.6rem;
+        color: #4D4D4D;
+    }
+    #text8 {
+        padding-left: 1.3rem;
+        font-size: 1.6rem;
+        color: #ff4304;
+    }
+    #box6 {
+        padding-top: 3.8rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        text-align: center;
+    }
+    #text9 {
+        font-size: 1.8rem;
+        color: #ff4304;
+        position: relative;
+        bottom: 2.6rem;
+    }
+    .miao {
+        font-size: 1.4rem;
+        color: #ff4304;
+    }
+    #page1 {
+        padding-left: 10%;
+    }
+    #order {
+        padding-bottom: 1.5rem;
+    }

@@ -1,0 +1,122 @@
+.navbar.navbar-default.navbar-fixed-top {
+    background-color: orangered;
+    padding: 0px;
+    text-align: center;
+    border: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 67.5%;
+}
+
+.fen {
+    margin: 0.5rem;
+    border: 0;
+}
+
+#img1 {
+    position: absolute;
+    top: 0.5rem;
+    left: 0px;
+    height: 4.4rem;
+    width: 4.4rem;
+}
+
+#wenzi {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+#text1 {
+    position: absolute;
+    left: 3.5rem;
+    top: 1rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+body {
+    padding-top: 5.7rem;
+    padding-bottom: 5.7rem;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+}
+
+.img2 {
+    height: 4.8rem;
+    width: 4.8rem;
+    position: relative;
+    top: 0.7rem;
+    left: 1rem;
+}
+
+.text1 {
+    font-size: 1.5rem;
+    color: #4D4D4D;
+    position: relative;
+    left: 6.5rem;
+    bottom: 4rem;
+    width: 8rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text1box {
+    width: 3rem;
+}
+
+.text2 {
+    font-size: 1.1rem;
+    color: #7e7e7e;
+    float: right;
+    position: relative;
+    right: 2rem;
+}
+
+.text3 {
+    font-size: 1.1rem;
+    color: #7e7e7e;
+    float: right;
+    position: relative;
+    right: 1rem;
+}
+
+.text4 {
+    font-size: 1.4rem;
+    color: #7e7e7e;
+    position: relative;
+    left: 6.5rem;
+    width: 79%;
+}
+
+#pinglun {
+    height: 10%;
+    padding-top: 5%;
+}
+
+#dibu {
+    margin-bottom: 1.8rem;
+    margin-top: 0px;
+}
+
+#text5 {
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    color: #7e7e7e;
+    border: 0;
+    margin-left: 5%;
+    width: 80%;
+}
+
+#img3 {
+    padding-left: 1rem;
+    padding-right: 4rem;
+}
+
+#text6 {
+    float: right;
+    font-size: 1.5rem;
+    color: #4c4c4c;
+}

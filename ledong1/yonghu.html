@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/yonghu.css" type="text/css">
+</head>
+
+<body>
+    <nar class="navbar navbar-default navbar-fixed-bottom" id="navbottom">
+        <ul class="nav nav-tabs ">
+            <a href="index.html">
+                <div name="biaoqian"><span><img src="img/%E7%90%83%E9%A6%86.png"></span>
+                    <p>球馆</p>
+                </div>
+            </a>
+            <a href="yonghu.html" class="active">
+                <div name="biaoqian"><span><img src="img/TabBar4Sel@2X.png"></span>
+                    <p>我的</p>
+                </div>
+            </a>
+        </ul>
+    </nar>
+    <div class="container-fluid" id="toubu">
+        <span><img src="img/%E8%AE%BE%E7%BD%AE@2x.png"class="glyphicon"></span>
+        <div class="row" id="toububox">
+            <div id="box1">注册/登录</div>
+            <div id="box2" class="one">
+                <img id="touxiang" class="img-circle">
+                <p id="username">乐动体育</p>
+                <div class="row" id="toubutext">
+                    <div class="col-xs-6" id="qiandaobox">
+                        <p class="qiandao">签到</p>
+                        <p id="qiandao">0</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <p class="qiandao">积分</p>
+                        <p id="jifen">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="dibu">
+        <div class="col-xs-12" id="dingchang">
+            <div class="box1" id="wodedingchang">
+                <span><img src="img/我的订场.png" class="img">    </span>我的订场
+                <span><img src="img/%E6%89%93%E5%BC%80@2x.png" class="open"></span>
+            </div>
+            <hr>
+            <div id="wodeshouzang">
+                <span class=""><img src="img/我的收藏.png" class="img">    </span>我的收藏
+                <span><img src="img/%E6%89%93%E5%BC%80@2x.png" class="open"></span>
+            </div>
+            <hr>
+            <div class="box2" id="daijinquan">
+                <span><img src="img/代金劵.png" class="img">    </span>代金卷
+                <span id="quanbox"><img src="img/%E6%89%93%E5%BC%80@2x.png" class="open"></span>
+            </div>
+        </div>
+        <div class="col-xs-12" id="fuwu" data-toggle="modal" data-target="#myModal">
+            <span><img src="img/服务中心.png"class="img">
+            </span> 服务中心
+            <span><img src="img/%E6%89%93%E5%BC%80@2x.png" class="open"></span>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myMoalLable">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <b class="modal-title">呼叫</b>
+                </div>
+                <div class="modal-body">18666380881</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        取消
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script data-main="js/yonghu/yonghu" src="js/public/require.js"></script>
+</body>
+
+</html>

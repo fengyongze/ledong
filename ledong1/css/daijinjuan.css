@@ -1,0 +1,125 @@
+.navbar.navbar-default.navbar-fixed-top {
+    background-color: orangered;
+    padding: 0px;
+    text-align: center;
+    border: 0;
+}
+
+html {
+    font-size: 67.5%
+}
+
+#img1 {
+    position: absolute;
+    top: 0.5rem;
+    left: 0px;
+    height: 4.4rem;
+    width: 4.4rem;
+}
+
+#wenzi {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+#text1 {
+    position: absolute;
+    left: 3.5rem;
+    top: 1.5rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+body {
+    padding-top: 5.7rem;
+}
+
+#text2 {
+    padding-right: 2rem;
+    float: right;
+    font-size: 1.4rem;
+    color: #999999;
+}
+
+#text2box.one {
+    display: none;
+}
+
+#img2 {
+    position: relative;
+    top: 0.3rem;
+    right: 0.7rem;
+    float: right;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.daijinquanbox {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2em;
+}
+
+.row {
+    margin-top: -7rem;
+}
+
+.col-xs-5 {
+    padding-left: 2.6rem;
+    padding-right: 0;
+}
+
+.biaozhi2 {
+    padding-left: 0.5rem;
+}
+
+.renminbi {
+    font-size: 2.4rem;
+    color: #01b9c0;
+}
+
+.jinqian {
+    font-size: 5rem;
+    color: #01b9c0;
+}
+
+.daijinquan {
+    font-size: 1.8rem;
+    color: #4D4D4D;
+}
+
+.youxiaoqi {
+    font-size: 1.4rem;
+    color: #808080;
+}
+
+.guoqijinqian {
+    font-size: 5rem;
+    color: #808080;
+}
+
+.guoqirenminbi {
+    font-size: 2.4rem;
+    color: #808080;
+}
+
+#anniubox {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#anniubox.one {
+    display: none;
+}
+
+#anniu {
+    background-image: url(/img/%E6%8C%89%E9%92%AE@2x.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 25rem;
+    height: 3rem;
+    margin: auto;
+    font-size: 1.6rem;
+    color: #ffffff;
+    padding-top: 0.5rem;
+}

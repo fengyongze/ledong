@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta content="telephone = no" name="format-detection" />
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/wodedingchang.css" type="text/css">
+    <script src="js/public/template.js"></script>
+</head>
+
+<body>
+    <nar class="navbar navbar-default navbar-fixed-top">
+        <div>
+            <p class="navbar-text" id="wenzi">我的订场</p>
+            <span id="fanhui"><img src="img/返回@2x.png"id="img1" ><text id="text1">返回</text></span>
+        </div>
+    </nar>
+    <div class="row nav nav-tabs" id="box1">
+        <div class="col-xs-6 current" id="zhifu" onclick="qwe()">待支付</div>
+        <div class="col-xs-6" id="quanbudingdan" onclick="asd()">全部订单</div>
+    </div>
+    <div class="container">
+        <div class="content current" id="daizhifu">
+        </div>
+        <div class="content" id="dingdan">
+            <div id="scroller">
+                <div id="thelist">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="myMoalLable">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        取消
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    <script src="js/wodedingchang.js"></script>-->
+<!--
+<script id="daizhifu" type="text/html">
+    {{each data}}
+    <div class="box5"></div>
+    {{/each}}
+</script>
+-->
+    <script id="dingdan" type="text/html">
+        {{each data}}
+        <div class="box4">
+            <hr>
+            <b class="text2 title">{{$value.ground.title}}</b>
+            <hr class="text3">
+            <div>
+                <div class="text3 ground">场地:</div>
+                <div class="text4 changdi">{{$value.groundsInfo.replace(/,/g, "\r\n")}}</div>
+            </div>
+            <div class="div1">
+                <text class="text3 date">日期:</text>
+                <text class="text4 shijian">{{$value.display_date}}(周{{$value.display_day}})</text>
+                <text class="text5 jinqian">{{$value.totalPrice}}元</text>
+            </div>
+            <div class="div2">
+                <text class="text3 code">验证码:</text>
+                <text class="text4 yanzhengma">{{if $value.validateCode ===""}}暂无 {{else}} {{$value.validateCode}} {{/if}}
+                </text>
+                {{if $value.status === "3"}}
+                <div class="text7">已取消</div>
+                {{else if $value.status === "2"}} {{if $value.validateCodeStatus === "0"}}
+                <div class="text6">未使用</div>
+                {{else if $value.validateCodeStatus === "1"}}
+                <div class="text7">已使用</div>
+                {{/if}} {{/if}}
+            </div>
+            <hr>
+        </div>
+        {{/each}}
+    </script>
+    <script data-main="js/wodedingchang/wodedingchang" src="js/public/require.js"></script>
+    <!--    <script src="js/wodedingchang/pulldown.js"></script>-->
+</body>
+
+</html>
